@@ -1,1 +1,27 @@
-//CSS RESERVIA
+
+
+#top_marks
+{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 400px;
+    border: 1px solid black;
+}
+
+header
+{
+    border: 1px solid rgb(81, 255, 0);
+}
+#top_page
+{
+    border: 1px solid blue;
+}  
+#hebergement
+{
+    border: 1px solid rgb(255, 0, 0);
+}  
+#aside_hebergement
+{
+    border: 1px solid rgb(255, 0, 179);
+}  
