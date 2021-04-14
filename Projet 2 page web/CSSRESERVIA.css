@@ -11,6 +11,8 @@ body
 
 #top_marks
 {
+    font-family: Raleway;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     float: right;
