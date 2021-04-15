@@ -9,7 +9,7 @@ body
     font-style:normal;
 }
 #bas_top_page
-{
+{  
     display: flex;
     justify-content: space-between;
     width: 700px;
