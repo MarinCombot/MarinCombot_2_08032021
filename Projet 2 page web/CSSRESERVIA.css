@@ -15,7 +15,7 @@ body
     width: 700px;
     border: 1px solid rgb(0, 217, 255);
 }
-#top_marks
+nav
 {
     display: flex;
     justify-content: space-between;
