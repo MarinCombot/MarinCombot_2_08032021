@@ -1,6 +1,6 @@
 @font-face {
     font-family:Raleway ;
-    src: url(Raleway/static/Raleway-Regular.ttf);
+    src: url(Raleway/static/Raleway-Regular.ttf); 
 }
 
 body
@@ -8,11 +8,15 @@ body
     font-family: Raleway;
     font-style:normal;
 }
-
+#bas_top_page
+{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    border: 1px solid rgb(0, 217, 255);
+}
 #top_marks
 {
-    font-family: Raleway;
-    font-weight: bold;
     display: flex;
     justify-content: space-between;
     float: right;
@@ -20,6 +24,10 @@ body
     border: 1px solid black;
 }
 
+#activites
+{
+    border: 1px solid rgb(255, 102, 0);
+}
 header
 {
     border: 1px solid rgb(81, 255, 0);
@@ -38,3 +46,10 @@ header
 {
     border: 1px solid rgb(255, 0, 179);
 }  
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color:#F2F2F2;
+}
