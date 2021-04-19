@@ -8,13 +8,18 @@ body
     font-family: Raleway;
     font-style:normal;
 }
-#bas_top_page
+
+#filtres
+{
+display: flex;
+justify-content: space-between;
+
+}
+.Filtres
 {  
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
     border: 1px solid rgb(0, 217, 255);
 }
+
 nav
 {
     display: flex;
