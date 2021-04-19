@@ -32,7 +32,7 @@ header
 {
     border: 1px solid rgb(81, 255, 0);
 }
-#top_page
+p
 {
     border: 1px solid blue;
 } 
@@ -42,7 +42,7 @@ header
     border: 1px solid rgb(255, 0, 0);
 } 
 
-#aside_hebergement
+aside
 {
     border: 1px solid rgb(255, 0, 179);
 }  
