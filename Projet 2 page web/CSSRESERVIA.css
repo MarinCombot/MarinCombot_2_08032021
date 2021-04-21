@@ -3,6 +3,7 @@
     font-family:Raleway ;
     src: url(Raleway/static/Raleway-Regular.ttf); 
 }
+{text-decoration: none;}
 /* Body*/
 body
 {
@@ -41,6 +42,7 @@ background-color: blue;
 {
 color: white;
 }
+
 /*rechercheFiltres*/
 .rechercheFiltres
 {
@@ -59,7 +61,7 @@ color: white;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    border: 1px solid green;
+    border: 2px solid green;
     border-radius: 50px;
     padding-right: 10px; 
 }
@@ -98,6 +100,11 @@ color: white;
     color:green;
 }
 /*hebergementPrincipal*/
+.hebergementPrincipalCardFigure
+{
+width: 500;
+height: 200; 
+}
 /*hebergementPopulaire*/
 /*activites*/
 /*Footer*/
