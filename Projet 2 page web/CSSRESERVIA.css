@@ -1,15 +1,16 @@
+/*General*/
 @font-face {
     font-family:Raleway ;
     src: url(Raleway/static/Raleway-Regular.ttf); 
 }
-
+/* Body*/
 body
 {
     font-family: Raleway;
     font-style:normal;
 }
 
-
+/*Header*/
 nav
 {
     display: flex;
@@ -17,10 +18,76 @@ nav
     float: right;
     width: 400px;
 }
+/*rechercheBarreDeRecherche*/
+input
+.rechercheBoutonIcone
+{
+    width: 100px;
+    height: 50px;
+}
+.rechercheBoutonFormulaire
+{
+width: 200px;
+height: 50px;
+}
+.rechercheBoutonInput
+{
+width: 200px;
+height: 50px;
+background-color: blue;
+
+}
+.rechercheBoutonInputText
+{
+color: white;
+}
+/*rechercheFiltres*/
+.rechercheFiltres
+{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding-left: 20px;
+
+}
+.rechercheFiltresFiltre
+{
+    width: 175px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid green;
+    border-radius: 50px;
+
+}
+
+.rechercheFiltresFiltreWrapIcone
+{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .rechercheFiltresFiltreWrapIconeIcon
 {
     color: blue;
 }
+.rechercheResultat
+{
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+/*hebergement*/
 
 .hebergementPrincipalCardGradeIconTrue
 {
@@ -28,23 +95,12 @@ nav
 }
 .hebergementPrincipalCardGradeIconFalse
 {
-    color:red;
+    color:green;
 }
-#activites
-{
-    border: 1px solid rgb(255, 102, 0);
-}
-.Head
-{
-    border: 1px solid rgb(81, 255, 0);
-}
-
-
-#hebergement
-{
-    border: 1px solid rgb(255, 0, 0);
-}  
-
+/*hebergementPrincipal*/
+/*hebergementPopulaire*/
+/*activites*/
+/*Footer*/
 footer
 {
     background-color:#F2F2F2;
@@ -54,7 +110,8 @@ footer
 {
     width: 1500px;
     display: flex;
-    justify-content:space-around; 
+    justify-content:space-between; 
+    padding-left: 50px;
 }
 .footerColumnwrapperColonne
 {
