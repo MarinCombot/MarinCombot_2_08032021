@@ -127,13 +127,13 @@ max-height:30em;
 max-width: 90em;
 background-color: #F2F2F2;
 }
-.hebergementCartes
+.hebergementPrincipalCartes
 {
     max-height:25em;
     max-width: 85em;
     border: 1px solid green;
 }
-.hebergementPrincipalCard
+.hebergementPrincipalCarteUnite
 {
     width: 20em;
     height: 15em;
