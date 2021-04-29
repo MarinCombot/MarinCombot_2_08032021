@@ -116,7 +116,6 @@ font-family:Raleway;
 .hebergement
 {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     border: 1px solid red;
 }
@@ -130,22 +129,25 @@ background-color: #F2F2F2;
 }
 .hebergementCartes
 {
-    display: flex;
-    justify-content: space-between;
+    max-height:25em;
+    max-width: 85em;
+    border: 1px solid green;
 }
 .hebergementPrincipalCard
 {
-    width: 15em;
-    height: 10em;
-    background-color:violet;
+    width: 20em;
+    height: 15em;
+    background-color:white;
     border: 1px solid blue;
+    margin: 0.5em;
 }
 
 .hebergementPrincipalImg
 {
-    max-width: 13em;/* Je bug sur la découpe d'image dans un carré*/
-    max-height: 13em;
-    border: 2px solid black;
+   width: 80%;/* Je bug sur la découpe d'image dans un carré*/
+   height: 60%;
+   overflow: hidden;
+   border: 2px solid black;
 }
 
 /*hebergementPopulaire*/
@@ -159,12 +161,13 @@ background-color: #F2F2F2;
     border: 1px solid violet;
     border-radius: 5%;
 }
+
 .hebergementAsideImg
 {
-    width: 1em;
-    height: 0.5em;
+    width: 90%;/* Je bug sur la découpe d'image dans un carré*/
+    height: 60%;
+    overflow: hidden;
 }
-
 
 /*activites*/
 
@@ -173,7 +176,7 @@ footer
 {
     width: 100%;
     background-color:#F2F2F2;
-    height: 300%;
+    height: 20%;
 }
 footer>aside
 {
