@@ -115,8 +115,6 @@ font-family:Raleway;
 }
 .hebergement
 {
-    display: flex;
-    justify-content: space-between;
     border: 1px solid red;
 }
 
@@ -139,14 +137,17 @@ background-color: #F2F2F2;
     height: 15em;
     background-color:white;
     border: 1px solid blue;
-    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
 }
 
 .hebergementPrincipalImg
 {
-   width: 10em;/* Je bug sur la découpe d'image dans un carré-terminé*/
-   height: 6em;
-   object-fit: cover;
+   width: 10em;
+   height: 7em;
+   display: flex;
    border: 2px solid black;
 }
 
