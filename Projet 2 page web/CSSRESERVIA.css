@@ -123,13 +123,13 @@ font-family:Raleway;
 /*hebergementPrincipal*/
 .hebergement>article
 {
-max-height:30em;
+max-height:60em;
 max-width: 90em;
 background-color: #F2F2F2;
 }
-.hebergementPrincipalCartes
+.hebergementPrincipalCartes/*Problème avec la taille du cadre et les cartes*/
 {
-    max-height:25em;
+    max-height:60em;
     max-width: 85em;
     border: 1px solid green;
 }
@@ -144,9 +144,9 @@ background-color: #F2F2F2;
 
 .hebergementPrincipalImg
 {
-   width: 80%;/* Je bug sur la découpe d'image dans un carré*/
-   height: 60%;
-   overflow: hidden;
+   width: 10em;/* Je bug sur la découpe d'image dans un carré-terminé*/
+   height: 6em;
+   object-fit: cover;
    border: 2px solid black;
 }
 
@@ -161,29 +161,35 @@ background-color: #F2F2F2;
     border: 1px solid violet;
     border-radius: 5%;
 }
-
+.hebergementPopulaireCarte
+{
+    width: 25em;
+    height: 12em;
+    background-color:white;
+    border: 1px solid blue; 
+}
 .hebergementAsideImg
 {
-    width: 90%;/* Je bug sur la découpe d'image dans un carré*/
-    height: 60%;
-    overflow: hidden;
+    width: 45%;
+    height: 80%;
 }
 
 /*activites*/
-
+.activitesCardWrapimgImg
+{
+    width: 4em;
+    height: 8em;
+}
 /*Footer*/
 footer
 {
-    width: 100%;
+    width: 70%;
     background-color:#F2F2F2;
     height: 20%;
-}
-footer>aside
-{
-    width: 70%;
     display: flex;
     justify-content:space-between; 
     padding-left: 1%;
+    padding-right: 30%;
 }
 .colonne
 {
