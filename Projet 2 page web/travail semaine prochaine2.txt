@@ -1,0 +1,19 @@
+attention faire des schémas
+
+recherche sans submit à voir
+
+
+- section classe hebergement pop, marseille, activité
+
+  remplacer article par figcaption
+
+bouton n'est pas bouton mais input submit
+- Recherche juer avec les marges
+- icone ne bloc pour recherche
+- pourquoi pas une div avec un bloc qui cover la zone de recherche
+
+
+Manque de marge et de padding
+
+
+corriger les cartes hebergements et activités pour la semaine prochaine
