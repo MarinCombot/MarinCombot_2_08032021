@@ -233,20 +233,20 @@ border-radius: 5%;
     display: flex;
     justify-content: wrap;
 }
-.activitesCard1
+.activitesCardType1
 {
-margin:1.5em;
-height: 35em;
-width: 20em;
-box-shadow: 5px 5px 7px #F2F2F2;
-background-color: white;
-border-radius: 5%;
+   margin:1.5em;
+   height: 35em;
+   width: 20em;
+   box-shadow: 5px 5px 7px #F2F2F2;
+   background-color: white;
+   border-radius: 5%;
 }
-.activitesCard1>h3
+.activitesCardType1>h3
 {
     padding-left: 1em;
 }
-.activitesCard1>img
+.activitesCardType1>img
 {
     height:32em;
     width: 20em;
@@ -262,8 +262,12 @@ border-radius: 5%;
     display: flex;
     flex-direction: column;
 }
+.package1>.activitesCardType3
+{
+margin-top: 2em;
+}
 
-.activitesCard2
+.activitesCardType2
 {
     height: 20em;
     width: 20em;
@@ -271,11 +275,11 @@ border-radius: 5%;
     background-color: white;
     border-radius: 5%;
 }
-.activitesCard2>h3
+.activitesCardType2>h3
 {
     padding-left: 2em;
 }
-.activitesCard2>img
+.activitesCardType2>img
 {
     height: 17em;
     width: 20em;
@@ -283,44 +287,21 @@ border-radius: 5%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
-.activitesCard3
+.activitesCardType3
 {
-    margin-top: 2em;
     height: 13em;
     width: 20em;
     box-shadow: 5px 5px 7px #F2F2F2;
     background-color: white;
     border-radius: 5%;
 }
-.activitesCard3>h3
+.activitesCardType3>h3
 {
     padding-left: 2em;
 }
-.activitesCard3>img
+.activitesCardType3>img
 {
     height: 10em;
-    width: 20em;
-    object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-}
-
-.activitesCard4
-{
-    margin:1.5em; 
-    height:35em;
-    width:20em;
-    box-shadow: 5px 5px 7px #F2F2F2;
-    background-color: white;
-    border-radius: 5%;
-}
-.activitesCard4>h3
-{
-    padding-left: 1em;
-}
-.activitesCard4>img
-{
-    height:32em;
     width: 20em;
     object-fit: cover;
     border-top-left-radius: 5%;
@@ -334,47 +315,9 @@ border-radius: 5%;
     display: flex;
     flex-direction: column;
 }
-.activitesCard5
+.package2>.activitesCardType2
 {
-    height: 13em;
-    width: 20em;
-    box-shadow: 5px 5px 7px #F2F2F2;
-    background-color: white;
-    border-radius: 5%;
-}
-.activitesCard5>h3
-{
-    padding-left: 2em;
-}
-.activitesCard5>img
-{
-    height: 10em;
-    width: 20em;
-    object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-}
-
-.activitesCard6
-{
-    margin-top: 2em;
-    height: 20em;
-    width: 20em;
-    box-shadow: 5px 5px 7px #F2F2F2;
-    background-color: white;
-    border-radius: 5%;
-}
-.activitesCard6>h3
-{
-    padding-left: 2em;
-}
-.activitesCard6>img
-{
-    height: 17em;
-    width: 20em;
-    object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+margin-top: 2em;
 }
 /*Footer*/
 footer
