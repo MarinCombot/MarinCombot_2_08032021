@@ -17,39 +17,55 @@ a
 /*Header*/
 nav
 {
-    display: flex;
-    justify-content: space-between;
-    float: right;
-    width: 20%;
+ display: flex;
+ justify-content: space-around;
+ float: right;
+ width: 20%;
+ border: 1px solid red;
 }
 
 /*rechercheBarreDeRecherche*/
-.rechercheBoutonIcone /* Comment tout réunir sous une forme unique???*/
+.recherche>form
 {
-width: 12em;
+width:27em;
 height: 3em;
+border: 1px solid #F2F2F2;
+display: flex;
+justify-content: left;
+border-radius: 1em;
+}
+.rechercheBoutonIcone 
+{
+display: flex;
+align-items: center;
+justify-content: center;
 background-color:#F2F2F2;
+width:3em;
+border-top-left-radius: 1em;
+border-bottom-left-radius: 1em;
 }
 .rechercheBoutonFormulaire
 {
 width: 15em;
-height: 3em;
 font-family:Raleway;
-font-size: 90%;
+font-size: 110%;
+font-weight: bolder;
+border-style: none;
 }
-.rechercheBoutonInput
+.button
 {
-width: 12em;
-height: 3em;
-background-color:#0065FC;
-}
-.rechercheBoutonInputText
-{
+width: 13em;
+font-size:100%;
 color: white;
-font-size: large;
-font-family:Raleway;
+background-color:#0065FC;
+border-top-right-radius: 1em;
+border-bottom-right-radius: 1em;
+border-style: none;
 }
-
+.button:active
+{
+    background-color:red;
+}
 /*rechercheFiltres*/
 .Filtres
 {
@@ -62,13 +78,12 @@ font-family:Raleway;
 .rechercheFiltres
 {
     width: auto;
-    height: 2em;
     display: flex;
     align-items: center;
     justify-content:space-between;
     border: 0.15em solid #F2F2F2;
     border-radius: 1em;
-    padding-right: 0.2em; 
+    padding-right: 0.2em;
 }
 
 .rechercheFiltres>i
@@ -115,7 +130,6 @@ font-family:Raleway;
 }
 .hebergement
 {
-    height:45em;
     width: 94em;
     display: flex;
     flex-wrap: wrap;
@@ -124,10 +138,9 @@ font-family:Raleway;
 /*hebergementPrincipal*/
 .hebergement>article
 {
-height:45em;
 width: 61em;
 background-color: #F2F2F2;
-border-radius: 5%;
+border-radius: 1em;
 }
 .titreHebergement
 {
@@ -152,14 +165,15 @@ border-radius: 5%;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     background-color:white;
-    border-radius: 10%;
+    border-radius: 1em;
 }
 .textCarteMain
 {
     margin-left: 1em;
     line-height: 80%;
     width: 15em;
-    height: 6em; 
+    height: 6em;
+    color:black;
 }
 .hebergementPrincipalImg
 {
@@ -167,17 +181,16 @@ border-radius: 5%;
    height: 9em;
    object-fit: cover;
    padding : 0.25em;
-   border-top-left-radius: 13%;
-   border-top-right-radius: 13%;
+   border-top-left-radius: 1em;
+   border-top-right-radius: 1em;
 }
 /*hebergementPopulaire*/
 .hebergement>aside
 {
-    height: 45em;
     width: 27.7em;
     margin-left: 3em;
     background-color: #F2F2F2;
-    border-radius: 5%;
+    border-radius: 1em;
     padding-left: 2em;
 }
 .titreAside
@@ -193,23 +206,23 @@ border-radius: 5%;
     margin-top: 2em;
     margin-left: 0.5em;
     background-color:white;
-    border-radius: 5%;
+    border-radius:1em;
 }
 .hebergementPopulaireCarte>a
 {
     width: 20em;
-    height: 9em;
+    height: 10em;
     display: flex;
     justify-content:wrap;
+    color:black;
 }
 .hebergementAsideImg
 {
     margin: 0.25em;
     object-fit: cover;
     width: 8em;
-    height: 100%;
-    border-top-left-radius: 5%;
-    border-Bottom-left-radius: 5%;
+    border-top-left-radius: 1em;;
+    border-Bottom-left-radius: 1em;;
 }
 .hostingPopularWrapcontentContent
 {
@@ -240,19 +253,20 @@ border-radius: 5%;
    width: 20em;
    box-shadow: 5px 5px 7px #F2F2F2;
    background-color: white;
-   border-radius: 5%;
+   border-radius: 1em;
 }
 .activitesCardType1>h3
 {
     padding-left: 1em;
+    color: black;
 }
 .activitesCardType1>img
 {
     height:32em;
     width: 20em;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 .package1
 {
@@ -278,14 +292,15 @@ margin-top: 2em;
 .activitesCardType2>h3
 {
     padding-left: 2em;
+    color: black;
 }
 .activitesCardType2>img
 {
     height: 17em;
     width: 20em;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
 }
 .activitesCardType3
 {
@@ -293,19 +308,20 @@ margin-top: 2em;
     width: 20em;
     box-shadow: 5px 5px 7px #F2F2F2;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 1em;
 }
 .activitesCardType3>h3
 {
     padding-left: 2em;
+    color: black;
 }
 .activitesCardType3>img
 {
     height: 10em;
     width: 20em;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
 }
 .package2
 {
@@ -334,4 +350,8 @@ footer>div
 {
     display: flex;
     flex-direction: column;
+}
+.colonne>a
+{
+color: black;
 }

@@ -25,14 +25,10 @@
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre de ville ou en pleine nature</p>
 		</header>
-		<form class="rechercheBouton" action="proceedFrom.html" method="GET">
-			<span class="rechercheBoutonIcone">
-			  <i class="fas fa-map-marker-alt"></i>
-			</span>
-			<input class="rechercheBoutonFormulaire" type="search" placeholder="Marseille, France" size="1">
-			<button class="rechercheBoutonInput">
-			  <span class="rechercheBoutonInputText">Rechercher</span>
-			</button>
+		<form class="BarreDeRecherhe">
+			<span class="rechercheBoutonIcone"><i class="fas fa-map-marker-alt"></i></span>
+			<input class="rechercheBoutonFormulaire" type="search" placeholder="Marseille, France">
+			<input class="button" type="button" value="Rechercher">
 		</form>
 		<div class="Filtres">
 			<h2>Filtres</h2>
@@ -191,7 +187,7 @@
 	        <!--Hebergement Aside-->
 			<aside>
 			  <h2 class="titreAside">Les plus populaire <i class="fas fa-chart-line"></i></h2>
-			  <article class="hebergementPopulaireCarte">
+			  <figcaption class="hebergementPopulaireCarte">
 				<a href="#">
 					<img 
 					  class="hebergementAsideImg"
@@ -210,8 +206,8 @@
 					</div>
 				  </div>
 				</a>
-			  </article>
-			  <article class="hebergementPopulaireCarte">
+			  </figcaption>
+			  <figcaption class="hebergementPopulaireCarte">
 				<a href="#">
 					<img 
 					  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
@@ -230,8 +226,8 @@
 					</div>
 				  </div>
 				</a>
-			  </article>
-			  <article class="hebergementPopulaireCarte">
+			  </figcaption>
+			  <figcaption class="hebergementPopulaireCarte">
 				<a href="#">
 					<img
 					  class="hebergementAsideImg"
@@ -250,14 +246,14 @@
 					</div>
 				  </div>
 				</a>
-			  </article>
+			  </figcaption>
 			</aside>
 		</section>
     <!-- ACTIVITY -->
     <section class="activites">
 		<h2>Activités à Marseille</h2>
 		<div class="activitescadre">
-		<a href="#" class="activitesCard1">
+		<a href="#" class="activitesCardType1">
 			<img 
 			  class="activitesCardWrapimgImg1"
 			  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
@@ -266,7 +262,7 @@
 		  <h3>Vieux Port</h3>
 		</a>
 		<div class="package1">
-		<a href="#" class="activitesCard2">
+		<a href="#" class="activitesCardType2">
 			<img 
 			  class="activitesCardWrapimgImg"
 			  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
@@ -274,7 +270,7 @@
 			>
 		  <h3>Fort de Pomègues</h3>
 		</a>
-		<a href="#" class="activitesCard3">
+		<a href="#" class="activitesCardType3">
 			<img 
 			  class="activitesCardWrapimgImg"
 			  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
@@ -283,7 +279,7 @@
 		  <h3>Île du Frioul</h3>
 		</a>
 	</div>
-		<a href="#" class="activitesCard4">
+		<a href="#" class="activitesCardType1">
 			<img 
 			  class="activitesCardWrapimgImg"
 			  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
@@ -291,9 +287,8 @@
 			>
 		  <h3>Parc National des Calanques</h3>
 		</a>
-
 		<div class="package2">
-		<a href="#" class="activitesCard5">
+		<a href="#" class="activitesCardType3">
 			<img 
 			  class="activitesCardWrapimgImg"
 			  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
@@ -301,7 +296,7 @@
 			>
 		  <h3>Notre-Dame-de-la-Garde</h3>
 		</a>
-		<a href="#" class="activitesCard6">
+		<a href="#" class="activitesCardType2">
 			<img 
 			  class="activitesCardWrapimgImg"
 			  src="Projet+2+-+Reservia+FR/Projet 2 - Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
@@ -315,18 +310,18 @@
 
 	 <!--Footer-->
 		<footer>
-			  <div>
+			  <div class="colonne">
 				<h3>A propos</h3>
 				<a href="#">Fonctionnement du site</a>
 				<a href="#">Conditions générales de vente</a>
 				<a href="#">Données et confidentialités</a>
 			  </div>
-			  <div>
+			  <div class="colonne">
 				<h3>Nos hébergement</h3>
 				<a href="#">Charte qualité</a>
 				<a href="#">Soumettre votre hotel</a>
 			  </div>
-			  <div>
+			  <div class="colonne">
 				<h3>Assitance</h3>
 				<a href="#">Centre d'aide</a>
 				<a href="#">Nous contacter</a>
