@@ -3,7 +3,6 @@
     font-family:Raleway ;
     src: url(Raleway/static/Raleway-Regular.ttf); 
 }
-
 /* Body*/
 body
 {
@@ -15,13 +14,19 @@ a
     text-decoration: none;
 }
 /*Header*/
+header>img
+{
+    width: 7.5em;
+}
 nav
 {
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  float: right;
- width: 20%;
- border: 1px solid red;
+ margin-right: 2%;
+ width: 22%;
+ font-weight: bold;
+ padding-top: 1em;
 }
 
 /*rechercheBarreDeRecherche*/
@@ -84,6 +89,7 @@ border-style: none;
     border: 0.15em solid #F2F2F2;
     border-radius: 1em;
     padding-right: 0.2em;
+    font-weight: bolder;
 }
 
 .rechercheFiltres>i
@@ -100,7 +106,7 @@ border-style: none;
 }
 .rechercheResultat
 {
-  width: 25%;
+  width: 33%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,7 +136,7 @@ border-style: none;
 }
 .hebergement
 {
-    width: 94em;
+    width: 93em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -148,11 +154,11 @@ border-radius: 1em;
 }
 .hebergementLien
 {
-    padding-left: 2em;
+    margin:2em;
+    color: black;
 }
 .hebergementPrincipalCartes
-{   height: 35em;
-    width: 61em;
+{   
     display: flex;
     flex-wrap: wrap;
 }
@@ -160,10 +166,7 @@ border-radius: 1em;
 {
     width: 17.5em;
     height: 16em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+    margin: 1em;
     background-color:white;
     border-radius: 1em;
 }
@@ -187,8 +190,8 @@ border-radius: 1em;
 /*hebergementPopulaire*/
 .hebergement>aside
 {
-    width: 27.7em;
-    margin-left: 3em;
+    width: 27em;
+    margin-left: 2.7em;
     background-color: #F2F2F2;
     border-radius: 1em;
     padding-left: 2em;
@@ -238,8 +241,7 @@ border-radius: 1em;
 /*activites*/
 .activites
 {
-    height:45em;
-    width: 94em;
+    width: 93em;
 }
 .activitescadre
 {
@@ -325,7 +327,7 @@ margin-top: 2em;
 }
 .package2
 {
-    margin:2em;
+    margin:1.5em;
     height:36em;
     width: 20em;
     display: flex;
@@ -354,4 +356,506 @@ footer>div
 .colonne>a
 {
 color: black;
+}   
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width:320px)and (min-width:320px)
+{
+
+}
+@media screen and (max-width:375px)and (min-width:321px)
+{
+}
+@media screen and (max-width:425px)and (min-width:376px)
+{
+}
+@media screen and (max-width:768px)and (min-width:426px)
+{
+}
+@media screen and (max-width:1024px)and (min-width:769px)
+{
+    body
+    {
+        font-family: Raleway;
+        font-style:normal;
+        font-size: 1em;
+    }
+    
+     .Filtres
+     {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 1%;
+     }
+        
+    .rechercheResultat
+    {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 1%;
+    }
+        .hebergement
+        {
+           width:100%;
+           display: flex;
+           flex-wrap: wrap;
+        }
+
+        .hebergementPrincipalCartes
+    {   
+        margin-left: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid blue;
+    }
+        .hebergementPrincipalCarteUnite
+{
+    width: 17.5em;
+    height: 16em;
+    margin: 0.5em;
+    background-color:white;
+    border-radius: 1em;
+    border: 1px solid red;
+}
+        .hebergement>article
+       {
+       width: 65%;
+       background-color: #F2F2F2;
+       border-radius: 1em;
+       }
+       .hebergement>aside
+    {
+        width: 30%;
+        margin-left: 2%;
+        background-color: #F2F2F2;
+        border-radius: 1em;
+        padding-left: 1em;
+        border: 1px solid green;
+    }
+    
+    
+    /*activites*/
+    .activites
+    {
+        width: 100%;
+    }
+    .activitescadre
+    {
+        display: flex;
+        justify-content: wrap;
+    }
+    .activitesCardType1
+    {
+       margin:2.5em;
+       height: 35em;
+       width: 20em;
+       box-shadow: 5px 5px 7px #F2F2F2;
+       background-color: white;
+       border-radius: 1em;
+    }
+    .activitesCardType1>h3
+    {
+        padding-left: 1em;
+        color: black;
+    }
+    .activitesCardType1>img
+    {
+        height:32em;
+        width: 20em;
+        object-fit: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    .package1
+    {
+        margin:2.5em;
+        height:36em;
+        width: 20em;
+        display: flex;
+        flex-direction: column;
+    }
+    .package1>.activitesCardType3
+    {
+    margin-top: 2em;
+    }
+    
+    .activitesCardType2
+    {
+        height: 20em;
+        width: 20em;
+        box-shadow: 5px 5px 7px #F2F2F2;
+        background-color: white;
+        border-radius: 5%;
+    }
+    .activitesCardType2>h3
+    {
+        padding-left: 2em;
+        color: black;
+    }
+    .activitesCardType2>img
+    {
+        height: 17em;
+        width: 20em;
+        object-fit: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius:1em;
+    }
+    .activitesCardType3
+    {
+        height: 13em;
+        width: 20em;
+        box-shadow: 5px 5px 7px #F2F2F2;
+        background-color: white;
+        border-radius: 1em;
+    }
+    .activitesCardType3>h3
+    {
+        padding-left: 2em;
+        color: black;
+    }
+    .activitesCardType3>img
+    {
+        height: 10em;
+        width: 20em;
+        object-fit: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius:1em;
+    }
+    .package2
+    {
+        margin:2.5em;
+        height:36em;
+        width: 20em;
+        display: flex;
+        flex-direction: column;
+    }
+    .package2>.activitesCardType2
+    {
+    margin-top: 2em;
+    }
+}
+@media screen and (max-width:1440px)and (min-width:1025px)
+{ 
+}
+@media screen and (max-width:1920px)and (min-width:1450px)
+{ 
+
+    body
+    {
+        font-family: Raleway;
+        font-style:normal;
+        font-size: 1.2em;
+    }
+    
+     .Filtres
+     {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 1%;
+     }
+        
+        .rechercheResultat
+    {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 1%;
+    }
+        .hebergement
+        {
+           width:100%;
+           display: flex;
+           flex-wrap: wrap;
+        }
+        .hebergementPrincipalCartes
+    {   
+        margin-left: 2em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .hebergementPrincipalCarteUnite
+        {
+            margin: 1.4em;
+        }
+        .hebergement>article
+       {
+       width: 65%;
+       background-color: #F2F2F2;
+       border-radius: 1em;
+       }
+       .hebergement>aside
+    {
+        width: 30%;
+        margin-left: 2.5%;
+        background-color: #F2F2F2;
+        border-radius: 1em;
+        padding-left: 2em;
+    }
+    
+    
+    /*activites*/
+    .activites
+    {
+        width: 100%;
+    }
+    .activitescadre
+    {
+        display: flex;
+        justify-content: wrap;
+    }
+    .activitesCardType1
+    {
+       margin:2.5em;
+       height: 35em;
+       width: 20em;
+       box-shadow: 5px 5px 7px #F2F2F2;
+       background-color: white;
+       border-radius: 1em;
+    }
+    .activitesCardType1>h3
+    {
+        padding-left: 1em;
+        color: black;
+    }
+    .activitesCardType1>img
+    {
+        height:32em;
+        width: 20em;
+        object-fit: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    .package1
+    {
+        margin:2.5em;
+        height:36em;
+        width: 20em;
+        display: flex;
+        flex-direction: column;
+    }
+    .package1>.activitesCardType3
+    {
+    margin-top: 2em;
+    }
+    
+    .activitesCardType2
+    {
+        height: 20em;
+        width: 20em;
+        box-shadow: 5px 5px 7px #F2F2F2;
+        background-color: white;
+        border-radius: 5%;
+    }
+    .activitesCardType2>h3
+    {
+        padding-left: 2em;
+        color: black;
+    }
+    .activitesCardType2>img
+    {
+        height: 17em;
+        width: 20em;
+        object-fit: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius:1em;
+    }
+    .activitesCardType3
+    {
+        height: 13em;
+        width: 20em;
+        box-shadow: 5px 5px 7px #F2F2F2;
+        background-color: white;
+        border-radius: 1em;
+    }
+    .activitesCardType3>h3
+    {
+        padding-left: 2em;
+        color: black;
+    }
+    .activitesCardType3>img
+    {
+        height: 10em;
+        width: 20em;
+        object-fit: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius:1em;
+    }
+    .package2
+    {
+        margin:2.5em;
+        height:36em;
+        width: 20em;
+        display: flex;
+        flex-direction: column;
+    }
+    .package2>.activitesCardType2
+    {
+    margin-top: 2em;
+    }
+}
+@media screen and (max-width:2560px) and (min-width:1925px)
+{ 
+    body
+{
+    font-family: Raleway;
+    font-style:normal;
+    font-size: 1.6em;
+}
+
+ .Filtres
+ {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1%;
+ }
+    
+    .rechercheResultat
+{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1%;
+}
+    .hebergement
+    {
+       width:100%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .hebergementPrincipalCartes
+{   
+    margin-left: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .hebergementPrincipalCarteUnite
+    {
+        margin: 1.4em;
+    }
+    .hebergement>article
+   {
+   width: 65%;
+   background-color: #F2F2F2;
+   border-radius: 1em;
+   }
+   .hebergement>aside
+{
+    width: 30%;
+    margin-left: 2.5%;
+    background-color: #F2F2F2;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+
+/*activites*/
+.activites
+{
+    width: 100%;
+}
+.activitescadre
+{
+    display: flex;
+    justify-content: wrap;
+}
+.activitesCardType1
+{
+   margin:2.5em;
+   height: 35em;
+   width: 20em;
+   box-shadow: 5px 5px 7px #F2F2F2;
+   background-color: white;
+   border-radius: 1em;
+}
+.activitesCardType1>h3
+{
+    padding-left: 1em;
+    color: black;
+}
+.activitesCardType1>img
+{
+    height:32em;
+    width: 20em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.package1
+{
+    margin:2.5em;
+    height:36em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+}
+.package1>.activitesCardType3
+{
+margin-top: 2em;
+}
+
+.activitesCardType2
+{
+    height: 20em;
+    width: 20em;
+    box-shadow: 5px 5px 7px #F2F2F2;
+    background-color: white;
+    border-radius: 5%;
+}
+.activitesCardType2>h3
+{
+    padding-left: 2em;
+    color: black;
+}
+.activitesCardType2>img
+{
+    height: 17em;
+    width: 20em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+.activitesCardType3
+{
+    height: 13em;
+    width: 20em;
+    box-shadow: 5px 5px 7px #F2F2F2;
+    background-color: white;
+    border-radius: 1em;
+}
+.activitesCardType3>h3
+{
+    padding-left: 2em;
+    color: black;
+}
+.activitesCardType3>img
+{
+    height: 10em;
+    width: 20em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+.package2
+{
+    margin:2.5em;
+    height:36em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+}
+.package2>.activitesCardType2
+{
+margin-top: 2em;
+}
 }
