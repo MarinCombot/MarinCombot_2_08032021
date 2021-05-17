@@ -170,7 +170,7 @@ border-radius: 1em;
     background-color:white;
     border-radius: 1em;
 }
-.textCarteMain
+.texteCarteMain
 {
     margin-left: 1em;
     line-height: 80%;
@@ -227,14 +227,14 @@ border-radius: 1em;
     border-top-left-radius: 1em;;
     border-Bottom-left-radius: 1em;;
 }
-.hostingPopularWrapcontentContent
+.hebergementPopulaireWrap
 {
     line-height: 100%;
     margin-left: 1em;
     width: 16em;
     height: 8em;
 }
-.hostingPopularWrapcontentContent>div
+.hebergementPopulaireWrap>div
 {
     padding-top: 2em;
 }
