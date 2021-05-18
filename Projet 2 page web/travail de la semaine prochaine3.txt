@@ -1,5 +1,0 @@
-Semaine 3 travail polish carte 
-header barre de recherche et menu etc...
-modifier en figcaption pour l'ensemble des cartes
-Commencer la version responsive-Mobile-Tablette-Retina-4k
-

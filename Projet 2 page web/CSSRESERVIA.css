@@ -14,8 +14,11 @@ a
     text-decoration: none;
 }
 /*Header*/
+
 header>img
 {
+    margin-left: 0.5em;
+    padding-top: 1em;
     width: 7.5em;
 }
 nav
@@ -23,13 +26,40 @@ nav
  display: flex;
  justify-content: space-between;
  float: right;
- margin-right: 2%;
- width: 22%;
- font-weight: bold;
- padding-top: 1em;
+ margin-right: 1%;
+ width: 35%;
 }
-
+.NavInscrire
+{
+    width: 5em;
+    padding-top: 1.2em;
+}
+.Navbar
+{
+width: 10em;
+border-top: 1em solid #0065FC;
+border-top-width: 0.2em;
+padding-top: 1em;
+}
+.Navbar>h4
+{
+    display: flex;
+    justify-content: center;
+    color: #0065FC;
+}
+.NavInscire>h4
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: #0065FC;
+}
 /*rechercheBarreDeRecherche*/
+.recherche
+{
+    margin-left: 0.5em;
+    margin-top: 2em;
+}
 .recherche>form
 {
 width:27em;
@@ -74,6 +104,7 @@ border-style: none;
 /*rechercheFiltres*/
 .Filtres
 {
+    margin-top: 1em;
     width: 60%;
     display: flex;
     align-items: center;
