@@ -50,7 +50,7 @@ color: black;
 {
    border-top: 1em solid #0065FC;
    border-top-width: 0.2em;
-color: #0065FC;
+   color: #0065FC;
 }
 .NavInscrire>h4
 {
@@ -96,7 +96,6 @@ border-style: none;
 {
 width: 13em;
 font-size:100%;
-color: white;
 background-color:#0065FC;
 border-top-right-radius: 1em;
 border-bottom-right-radius: 1em;
@@ -106,13 +105,33 @@ border-style: none;
 {
     background-color:red;
 }
+
+.buttonTexte
+{
+width: 13em;
+font-size:100%;
+color: white;
+}
+
+.buttonIcone
+{
+    opacity: 0;
+}
+
 /*rechercheFiltres*/
 .Filtres
 {
     margin-top: 1em;
+    width: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1%;
+}
+.FiltresDeRecheche
+{
+    margin-top: 1em;
     width: 45em;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding-left: 1%;
 }
@@ -180,9 +199,9 @@ border-style: none;
 /*hebergementPrincipal*/
 .hebergement>article
 {
-width: 61em;
-background-color: #F2F2F2;
-border-radius: 1em;
+    width: 61em;
+    background-color: #F2F2F2;
+    border-radius: 1em;
 }
 .titreHebergement
 {
@@ -378,8 +397,8 @@ footer
 {
     width: 70%;
     background-color:#F2F2F2;
-    height: 10em;
     display: flex;
+    height: 10em;
     justify-content:space-between; 
     padding-left: 1%;
     padding-right: 29.5%;
@@ -404,7 +423,7 @@ body
 {
     font-family: Raleway;
     font-style:normal;
-    font-size: 2em;
+    font-size: 0.5em;
 }
 a
 {
@@ -414,14 +433,14 @@ a
 
 header
 {
-    width: 34em;
+    width: 33em;
     display: flex;
     justify-content: wrap;
     border: 1px solid red;
 }
 header>img
 {
-width: auto;
+width:5em;
 }
 nav
 {
@@ -465,14 +484,13 @@ color: #0065FC;
 .recherche>span 
 {
     width: 34em;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 .recherche>form
 {
-width:27em;
+width:34em;
 height: 3em;
 border: 1px solid #F2F2F2;
 display: flex;
@@ -485,13 +503,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-color:#F2F2F2;
-width:3em;
+width:5em;
 border-top-left-radius: 1em;
 border-bottom-left-radius: 1em;
 }
 .rechercheBoutonFormulaire
 {
-width: 15em;
+width: 24em;
 font-family:Raleway;
 font-size: 110%;
 font-weight: bolder;
@@ -499,13 +517,26 @@ border-style: none;
 }
 .button
 {
-width: 13em;
+width: 5em;
 font-size:100%;
-color: white;
 background-color:#0065FC;
 border-top-right-radius: 1em;
 border-bottom-right-radius: 1em;
 border-style: none;
+}
+
+.buttonTexte
+{
+display: none;
+width: 13em;
+font-size:100%;
+color: white;
+}
+
+.buttonIcone
+{
+    opacity: 1;
+    color: white;
 }
 .button:active
 {
@@ -515,11 +546,23 @@ border-style: none;
 .Filtres
 {
     margin-top: 1em;
-    width: 45%;
+    width: 50em;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     padding-left: 1%;
+}
+.FiltresDeRecheche
+{
+    margin-top: 1em;
+    width: 24em;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1%;
+}
+.FiltresRecherche
+{
+    margin-right: 12em;
+    text-align: left;
 }
 .rechercheFiltres
 {
@@ -528,6 +571,7 @@ border-style: none;
     align-items: center;
     justify-content:space-between;
     border: 0.15em solid #F2F2F2;
+    margin: 1em;
     border-radius: 1em;
     padding-right: 0.2em;
     font-weight: bolder;
@@ -583,7 +627,6 @@ border-style: none;
     width: 34em;
     display: flex;
     flex-direction: column-reverse;
-    border: 1px solid green;
 }
 
 /*hebergementPrincipal*/
@@ -594,7 +637,7 @@ background-color: white;
 display: flex;
 justify-content: center;
 flex-direction: column;
-border: 1px solid red;
+border-radius: 0em;
 }
 .titreHebergement
 {
@@ -618,7 +661,7 @@ border: 1px solid red;
     margin: 1em;
     background-color:white;
     border-radius: 1em;
-    box-shadow: 0em  0.5em  1em #F2F2F2;
+    box-shadow: 0.5em  0.5em  1em #F2F2F2;
 }
 .texteCarteMain
 {
@@ -696,6 +739,7 @@ border: 1px solid red;
 .activites
 {
     width: 34em;
+    margin-bottom: 2em;
 }
 .activitescadre
 {
@@ -728,7 +772,7 @@ border: 1px solid red;
 .package1
 {
     margin:1.5em;
-    height:40em;
+    height:43em;
     width: 31em;
     display: flex;
     flex-direction: column;
@@ -783,8 +827,8 @@ margin-top: 1.5em;
 .package2
 {
     margin:1.5em;
-    height:36em;
-    width: 20em;
+    height:43em;
+    width: 31em;
     display: flex;
     flex-direction: column;
 }
@@ -795,16 +839,19 @@ margin-top: 2em;
 /*Footer*/
 footer
 {
-    width: 70%;
-    background-color:#F2F2F2;
-    height: 10em;
     display: flex;
-    justify-content:space-between; 
+    justify-content: wrap;
+    flex-direction: column;
+    width: 33.4em;
+    height: auto;
+    background-color:#F2F2F2;
     padding-left: 1%;
-    padding-right: 29.5%;
+    padding-right: 0%;
+    padding-bottom: 5%;
 }
 footer>div
 {
+    padding-left: 3%;
     display: flex;
     flex-direction: column;
 }
@@ -828,6 +875,18 @@ color: black;
 }
 @media screen and (max-width:1440px)and (min-width:1025px)
 { 
+    .buttonTexte
+{
+width: 13em;
+font-size:100%;
+color: white;
+}
+
+.buttonIcone
+{
+    display: none;
+    opacity: 0;
+}
 }
 @media screen and (max-width:1920px)and (min-width:1450px)
 { 
