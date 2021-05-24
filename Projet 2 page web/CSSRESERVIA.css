@@ -36,7 +36,6 @@ nav
 }
 .NavInscrire
 {
-    width: 10%;
     padding-top: 1.2em;
 }
 .Navbar
@@ -420,7 +419,7 @@ color: black;
 
 /* MEDIA QUERIES*/
 
-@media screen and (max-width:320px)and (min-width:310px)
+@media screen and (min-width:320px) and (max-width:468px)
 {
 
 /* Body*/
@@ -438,21 +437,24 @@ a
 
 header
 {
-    width: 34em;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 header>img
 {
 order: -1;
 width:10em;
-margin-right: 15em;
+margin-right: 0%;
+padding-left: 5%;
 }
 
 .NavInscrire
 {
     order: -1;
     font-size:  1.6em;
+    padding-right: 5%;
 }
 nav
 {
@@ -464,9 +466,11 @@ nav
 }
 .Navbar
 {
-width: 17em;
+width: 50%;
 padding-top: 1em;
 color: black;
+border-bottom: 1em solid #F2F2F2;
+border-bottom-width: 0.2em;
 }
 .Navbar>h4
 {
@@ -484,7 +488,7 @@ color: #0065FC;
 .NavInscrire>h4
 {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     color: #0065FC;
     font-weight: bolder;
 }
@@ -495,14 +499,15 @@ color: #0065FC;
 }
 .recherche>span 
 {
-    width: 34em;
+    width: 100%;
+    font-size: larger;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 .recherche>form
 {
-width:34em;
+width:100%;
 height: 3em;
 border: 1px solid #F2F2F2;
 display: flex;
@@ -515,13 +520,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-color:#F2F2F2;
-width:5em;
+width:10%;
 border-top-left-radius: 1em;
 border-bottom-left-radius: 1em;
 }
 .rechercheBoutonFormulaire
 {
-width: 24em;
+width: 80%;
 font-family:Raleway;
 font-size: 110%;
 font-weight: bolder;
@@ -529,7 +534,7 @@ border-style: none;
 }
 .button
 {
-width: 5em;
+width: 10%;
 font-size:100%;
 background-color:#0065FC;
 border-top-right-radius: 1em;
@@ -558,7 +563,7 @@ color: white;
 .Filtres
 {
     margin-top: 1em;
-    width: 50em;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 1%;
@@ -603,7 +608,7 @@ color: white;
 }
 .rechercheResultat
 {
-  width: 30em;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -636,7 +641,7 @@ color: white;
 }
 .hebergement
 {
-    width: 34em;
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -668,12 +673,12 @@ border-radius: 0em;
 }
 .hebergementPrincipalCarteUnite
 {
-    width: 32em;
-    height: 20em;
+    width: 100%;
+    height:30em;
     margin: 1em;
     background-color:white;
     border-radius: 1em;
-    box-shadow: 0.5em  0.5em  1em #F2F2F2;
+    box-shadow: 0em 8em 4em 3px #f2f2f2;
 }
 .texteCarteMain
 {
@@ -686,17 +691,17 @@ border-radius: 0em;
 }
 .hebergementPrincipalImg
 {
-   width: 31.5em;
-   height: 11em;
+   width: 97%;
+   height: 16em;
    object-fit: cover;
-   padding : 0.25em;
+   padding : 1.5%;
    border-top-left-radius: 1em;
    border-top-right-radius: 1em;
 }
 /*hebergementPopulaire*/
 .hebergement>aside
 {
-    width: 33em;
+    width: 100%;
     margin-left: 0em;
     background-color: #F2F2F2;
     border-radius: 0em;
@@ -705,15 +710,16 @@ border-radius: 0em;
 
 .titreAside
 {
-    width: 20em;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     font-size:1.6em;
     font-weight: bolder;
+    padding-left: 5%;
 }
 .hebergementPopulaireCarte
 {
-    width: 30em;
+    width: 90%;
     height: 13em;
     margin: 1em;
     background-color:white;
@@ -721,7 +727,7 @@ border-radius: 0em;
 }
 .hebergementPopulaireCarte>a
 {
-    width: 30em;
+    width: 100%;
     height: 13em;
     display: flex;
     justify-content:wrap;
@@ -731,13 +737,15 @@ border-radius: 0em;
 {
     margin: 0.25em;
     object-fit: cover;
-    width: 12em;
+    width: 40%;
     border-top-left-radius: 1em;;
     border-Bottom-left-radius: 1em;;
 }
 .hebergementPopulaireWrap
 {
     font-size: larger;
+    width: 50%;
+    margin-right: 15%;
     line-height: 100%;
     margin-left: 1em;
     width: 16em;
@@ -750,7 +758,7 @@ border-radius: 0em;
 /*activites*/
 .activites
 {
-    width: 34em;
+    width: 100%;
     margin-bottom: 2em;
 }
 .activitescadre
@@ -762,8 +770,8 @@ border-radius: 0em;
 .activitesCardType1
 {
    margin:1.5em;
-   height: 20em;
-   width: 31em;
+   height: 23em;
+   width: 95%;
    box-shadow: 5px 5px 7px #F2F2F2;
    background-color: white;
    border-radius: 1em;
@@ -776,7 +784,7 @@ border-radius: 0em;
 .activitesCardType1>img
 {
     height: 16em;
-    width: 31em;
+    width: 100%;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -785,7 +793,7 @@ border-radius: 0em;
 {
     margin:1.5em;
     height:43em;
-    width: 31em;
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
@@ -797,7 +805,7 @@ margin-top: 1.5em;
 .activitesCardType2
 {
     height: 20em;
-    width: 31em;
+    width: 100%;
     box-shadow: 5px 5px 7px #F2F2F2;
     background-color: white;
     border-radius: 1em;
@@ -810,7 +818,7 @@ margin-top: 1.5em;
 .activitesCardType2>img
 {
     height: 16em;
-    width: 31em;
+    width: 100%;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -818,7 +826,7 @@ margin-top: 1.5em;
 .activitesCardType3
 {
     height: 20em;
-    width: 31em;
+    width: 100%;
     box-shadow: 5px 5px 7px #F2F2F2;
     background-color: white;
     border-radius: 1em;
@@ -831,7 +839,7 @@ margin-top: 1.5em;
 .activitesCardType3>img
 {
     height: 16em;
-    width: 31em;
+    width: 100%;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -840,7 +848,7 @@ margin-top: 1.5em;
 {
     margin:1.5em;
     height:43em;
-    width: 31em;
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
@@ -851,10 +859,10 @@ margin-top: 2em;
 /*Footer*/
 footer
 {
+    font-size: small;
     display: flex;
-    justify-content: wrap;
     flex-direction: column;
-    width: 33.4em;
+    width: 100%;
     height: auto;
     background-color:#F2F2F2;
     padding-left: 1%;
@@ -872,12 +880,6 @@ footer>div
 color: black;
 }   
 
-}
-@media screen and (max-width:375px)and (min-width:350px)
-{
-}
-@media screen and (max-width:425px)and (min-width:376px)
-{
 }
 @media screen and (max-width:768px)and (min-width:426px)
 {
