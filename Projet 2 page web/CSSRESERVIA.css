@@ -28,7 +28,7 @@ header>img
     width: 7.5em;
     margin-right: 58%;
 }
-nav
+nav /*comment*/
 {
  display: flex;
  justify-content: space-evenly;
