@@ -19,25 +19,24 @@ header
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 header>img
 {
     margin-left: 0.5em;
     padding-top: 1em;
     width: 7.5em;
-    margin-right: 45%;
+    margin-right: 58%;
 }
 nav
 {
  display: flex;
  justify-content: space-evenly;
- float: right;
- margin-right: 1%;
- width: 30%;
+ width:20%;
 }
 .NavInscrire
 {
-    padding-top: 0.8%;
+    padding-top: 0.5%;
 }
 .Navbar
 {
@@ -132,12 +131,11 @@ color: white;
     flex-wrap: wrap;
     padding-left: 1%;
 }
+
 .FiltresDeRecheche
 {
-    margin-top: 1em;
     width: 90%;
     display: flex;
-    justify-content: space-evenly;
     padding-left: 1%;
 }
 .rechercheFiltres
@@ -148,8 +146,9 @@ color: white;
     justify-content:space-between;
     border: 0.15em solid #F2F2F2;
     border-radius: 1em;
-    padding-right: 0.2em;
+    padding-right: 0.3em;
     font-weight: bolder;
+    margin-right: 2%;
 }
 
 .rechercheFiltres>i
@@ -169,7 +168,6 @@ color: white;
   width: 60%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin:1em;
   padding-left: 1%;
 }
@@ -211,7 +209,7 @@ color: white;
 }
 .titreHebergement
 {
-    padding-left: 0.5em;
+    padding-left: 2%;
 }
 .hebergementLien
 {
@@ -222,12 +220,14 @@ color: white;
 {   
     display: flex;
     flex-wrap: wrap;
+    padding-left: 3%;
 }
 .hebergementPrincipalCarteUnite
 {
     width: 29%;
     height: 16em;
     margin: 1%;
+    margin-top: 2%;
     background-color:white;
     border-radius: 1em;
 }
@@ -325,7 +325,7 @@ color: white;
 }
 .activitesCardType1>img
 {
-    height:32em;
+    height:30em;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 1em;
@@ -359,7 +359,7 @@ margin-top: 2em;
 }
 .activitesCardType2>img
 {
-    height: 17em;
+    height: 15em;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 1em;
@@ -380,7 +380,7 @@ margin-top: 2em;
 }
 .activitesCardType3>img
 {
-    height: 10em;
+    height: 8.5em;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 1em;
@@ -986,10 +986,6 @@ color: white;
     margin-right: 0.5em;
     color:#0065FC;
 }
-.rechercheResultat
-{
-  justify-content: space-evenly;
-}
 
 .rechercheResultat>p 
 {
@@ -1142,7 +1138,27 @@ border-radius: 0em;
     display: flex;
     flex-direction: column;
 }
-
+.activitesCardType2
+{
+    height: 20em;
+    width: 100%;
+    box-shadow: 5px 5px 7px #F2F2F2;
+    background-color: white;
+    border-radius: 5%;
+}
+.activitesCardType2>h3
+{
+    padding-left: 2em;
+    color: black;
+}
+.activitesCardType2>img
+{
+    height:17em;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
 
 .activitesCardType3
 {
@@ -1198,7 +1214,6 @@ body
  {
         width: 75%;
         align-items: center;
-        justify-content: space-between;
  }
 .texteCarteMain
 {
@@ -1222,7 +1237,6 @@ body
      {
             width: 60%;
             align-items: center;
-            justify-content: space-between;
      }
 }
 @media screen  and (min-width:1921px) and (max-width:2560px)
@@ -1236,6 +1250,5 @@ body
  {
         width: 60%;
         align-items: center;
-        justify-content: space-between;
  }
 }
