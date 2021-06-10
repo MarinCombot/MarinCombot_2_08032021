@@ -30,9 +30,9 @@ header>img
 }
 nav
 {
- display: flex;
- justify-content: space-evenly;
- width:20%;
+    display: flex;
+    justify-content: space-evenly;
+    width:20%;
 }
 .NavInscrire
 {
@@ -40,9 +40,9 @@ nav
 }
 .Navbar
 {
-width: 100%;
-padding-top: 2.5%;
-color: black;
+    width: 100%;
+    padding-top: 2.5%;
+    color: black;
 }
 .Navbar>h4
 {
@@ -52,9 +52,9 @@ color: black;
 }
 .Navbar:focus
 {
- border-top: 1em solid #0065FC;
- border-top-width: 0.2em;
- color: #0065FC;
+    border-top: 1em solid #0065FC;
+    border-top-width: 0.2em;
+    color: #0065FC;
 }
 .NavInscrire>h4
 {
@@ -71,39 +71,39 @@ color: black;
 }
 .recherche>form
 {
-width:27em;
-height: 3em;
-border: 1px solid #F2F2F2;
-display: flex;
-justify-content: left;
-border-radius: 1em;
+    width:27em;
+    height: 3em;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    justify-content: left;
+    border-radius: 1em;
 }
 .rechercheBoutonIcone 
 {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color:#F2F2F2;
-width:3em;
-border-top-left-radius: 1em;
-border-bottom-left-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F2F2F2;
+    width:3em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
 .rechercheBoutonFormulaire
 {
-width: 15em;
-font-family:Raleway;
-font-size: 110%;
-font-weight: bolder;
-border-style: none;
+    width: 15em;
+    font-family:Raleway;
+    font-size: 110%;
+    font-weight: bolder;
+    border-style: none;
 }
 .button
 {
-width: 13em;
-font-size:100%;
-background-color:#0065FC;
-border-top-right-radius: 1em;
-border-bottom-right-radius: 1em;
-border-style: none;
+    width: 13em;
+    font-size:100%;
+    background-color:#0065FC;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: none;
 }
 .button:active
 {
@@ -112,9 +112,9 @@ border-style: none;
 
 .buttonTexte
 {
-width: 13em;
-font-size:100%;
-color: white;
+    width: 13em;
+    font-size:100%;
+    color: white;
 }
 
 .buttonIcone
@@ -165,11 +165,11 @@ color: white;
 }
 .rechercheResultat
 {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  margin:1em;
-  padding-left: 1%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin:1em;
+    padding-left: 1%;
 }
 .rechercheResultat>i
 {
@@ -241,12 +241,12 @@ color: white;
 }
 .hebergementPrincipalImg
 {
-   width: 97%;
-   height: 9em;
-   object-fit: cover;
-   padding : 1.5%;
-   border-top-left-radius: 1em;
-   border-top-right-radius: 1em;
+    width: 97%;
+    height: 9em;
+    object-fit: cover;
+    padding : 1.5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 /*hebergementPopulaire*/
 .hebergement>aside
@@ -310,12 +310,12 @@ color: white;
 }
 .activitesCardType1
 {
-   margin:1%;
-   height: 35em;
-   width: 23%;
-   box-shadow: 5px 5px 7px #F2F2F2;
-   background-color: white;
-   border-radius: 1em;
+    margin:1%;
+    height: 35em;
+    width: 23%;
+    box-shadow: 5px 5px 7px #F2F2F2;
+    background-color: white;
+    border-radius: 1em;
 }
 .activitesCardType1>h3
 {
@@ -340,7 +340,7 @@ color: white;
 }
 .package1>.activitesCardType3
 {
-margin-top: 2em;
+    margin-top: 2em;
 }
 
 .activitesCardType2
@@ -395,7 +395,7 @@ margin-top: 2em;
 }
 .package2>.activitesCardType2
 {
-margin-top: 2em;
+    margin-top: 2em;
 }
 /*Footer*/
 footer
@@ -415,7 +415,7 @@ footer>div
 }
 .colonne>a
 {
-color: black;
+    color: black;
 }   
 
 /* MEDIA QUERIES*/
@@ -438,10 +438,10 @@ header
 }
 header>img
 {
-order: -1;
-width:10em;
-margin-right: 0%;
-padding-left: 5%;
+    order: -1;
+    width:10em;
+    margin-right: 0%;
+    padding-left: 5%;
 }
 
 .NavInscrire
@@ -460,10 +460,10 @@ nav
 }
 .Navbar
 {
-width: 50%;
-padding-top: 1em;
-border-bottom: 1em solid #F2F2F2;
-border-bottom-width: 0.2em;
+    width: 50%;
+    padding-top: 1em;
+    border-bottom: 1em solid #F2F2F2;
+    border-bottom-width: 0.2em;
 }
 .Navbar>h4
 {
@@ -474,9 +474,9 @@ border-bottom-width: 0.2em;
 }
 .Navbar:focus
 {
-border-bottom: 1em solid #0065FC;
-border-bottom-width: 0.2em;
-color: #0065FC;
+    border-bottom: 1em solid #0065FC;
+    border-bottom-width: 0.2em;
+    color: #0065FC;
 }
 .NavInscrire>h4
 {
@@ -500,47 +500,47 @@ color: #0065FC;
 }
 .recherche>form
 {
-width:100%;
-height: 3em;
-border: 1px solid #F2F2F2;
-display: flex;
-justify-content: left;
-border-radius: 1em;
+    width:100%;
+    height: 3em;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    justify-content: left;
+    border-radius: 1em;
 }
 .rechercheBoutonIcone 
 {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color:#F2F2F2;
-width:10%;
-border-top-left-radius: 1em;
-border-bottom-left-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F2F2F2;
+    width:10%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
 .rechercheBoutonFormulaire
 {
-width: 80%;
-font-family:Raleway;
-font-size: 110%;
-font-weight: bolder;
-border-style: none;
+    width: 80%;
+    font-family:Raleway;
+    font-size: 110%;
+    font-weight: bolder;
+    border-style: none;
 }
 .button
 {
-width: 10%;
-font-size:100%;
-background-color:#0065FC;
-border-top-right-radius: 1em;
-border-bottom-right-radius: 1em;
-border-style: none;
+    width: 10%;
+    font-size:100%;
+    background-color:#0065FC;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: none;
 }
 
 .buttonTexte
 {
-display: none;
-width: 13em;
-font-size:100%;
-color: white;
+    display: none;
+    width: 13em;
+    font-size:100%;
+    color: white;
 }
 
 .buttonIcone
@@ -610,12 +610,12 @@ color: white;
 /*hebergementPrincipal*/
 .hebergement>article
 {
-width: 100%;
-background-color: white;
-display: flex;
-justify-content: center;
-flex-direction: column;
-border-radius: 0em;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0em;
 }
 .titreHebergement
 {
@@ -642,12 +642,12 @@ border-radius: 0em;
 }
 .hebergementPrincipalImg
 {
-   width: 97%;
-   height: 16em;
-   object-fit: cover;
-   padding : 1.5%;
-   border-top-left-radius: 1em;
-   border-top-right-radius: 1em;
+    width: 97%;
+    height: 16em;
+    object-fit: cover;
+    padding : 1.5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 /*hebergementPopulaire*/
 .hebergement>aside
@@ -718,12 +718,12 @@ border-radius: 0em;
 }
 .activitesCardType1
 {
-   margin:1.5em;
-   height: 23em;
-   width: 95%;
-   box-shadow: 5px 5px 7px #F2F2F2;
-   background-color: white;
-   border-radius: 1em;
+    margin:1.5em;
+    height: 20em;
+    width: 95%;
+    box-shadow: 5px 5px 7px #F2F2F2;
+    background-color: white;
+    border-radius: 1em;
 }
 .activitesCardType1>img
 {
@@ -743,9 +743,8 @@ border-radius: 0em;
 }
 .package1>.activitesCardType3
 {
-margin-top: 1.5em;
+    margin-top: 1.5em;
 }
-
 .activitesCardType2
 {
     border-radius: 1em;
@@ -767,7 +766,6 @@ margin-top: 1.5em;
     background-color: white;
     border-radius: 1em;
 }
-
 .activitesCardType3>img
 {
     height: 16em;
@@ -865,9 +863,9 @@ nav
 }
 .Navbar:focus
 {
-border-bottom: 1em solid #0065FC;
-border-bottom-width: 0.2em;
-color: #0065FC;
+    border-bottom: 1em solid #0065FC;
+    border-bottom-width: 0.2em;
+    color: #0065FC;
 }
 .NavInscrire>h4
 {
@@ -891,47 +889,47 @@ color: #0065FC;
 }
 .recherche>form
 {
-width:80%;
-height: 3em;
-border: 1px solid #F2F2F2;
-display: flex;
-justify-content: left;
-border-radius: 1em;
+    width:80%;
+    height: 3em;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    justify-content: left;
+    border-radius: 1em;
 }
 .rechercheBoutonIcone 
 {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color:#F2F2F2;
-width:10%;
-border-top-left-radius: 1em;
-border-bottom-left-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F2F2F2;
+    width:10%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
 .rechercheBoutonFormulaire
 {
-width: 80%;
-font-family:Raleway;
-font-size: 110%;
-font-weight: bolder;
-border-style: none;
+    width: 80%;
+    font-family:Raleway;
+    font-size: 110%;
+    font-weight: bolder;
+    border-style: none;
 }
 .button
 {
-width: 10%;
-font-size:100%;
-background-color:#0065FC;
-border-top-right-radius: 1em;
-border-bottom-right-radius: 1em;
-border-style: none;
+    width: 10%;
+    font-size:100%;
+    background-color:#0065FC;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: none;
 }
 
 .buttonTexte
 {
-display: none;
-width: 13em;
-font-size:100%;
-color: white;
+    display: none;
+    width: 13em;
+    font-size:100%;
+    color: white;
 }
 
 .buttonIcone
@@ -971,7 +969,6 @@ color: white;
     padding-right: 0.2em;
     font-weight: bolder;
 }
-
 .rechercheFiltres>i
 {
     height: 2em;
@@ -984,7 +981,6 @@ color: white;
     margin-right: 0.5em;
     color:#0065FC;
 }
-
 .rechercheResultat>p 
 {
     font-size: larger;
@@ -1001,18 +997,17 @@ color: white;
 /*hebergementPrincipal*/
 .hebergement>article
 {
-width: 100%;
-background-color: white;
-display: flex;
-justify-content: center;
-flex-direction: column;
-border-radius: 0em;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0em;
 }
 .titreHebergement
 {
     font-size: 2.2em;
 }
-
 .hebergementPrincipalCartes
 {   
     justify-content: space-evenly;
@@ -1037,12 +1032,12 @@ border-radius: 0em;
 }
 .hebergementPrincipalImg
 {
-   width: 97%;
-   height: 16em;
-   object-fit: cover;
-   padding : 1.5%;
-   border-top-left-radius: 1em;
-   border-top-right-radius: 1em;
+    width: 97%;
+    height: 16em;
+    object-fit: cover;
+    padding : 1.5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 /*hebergementPopulaire*/
 .hebergement>aside
@@ -1110,13 +1105,13 @@ border-radius: 0em;
 }
 .activitesCardType1
 {
-   order: +1;
-   margin:1.5em;
-   height: 20em;
-   width: 42%;
-   box-shadow: 5px 5px 7px #F2F2F2;
-   background-color: white;
-   border-radius: 1em;
+    order: +1;
+    margin:1.5em;
+    height: 20em;
+    width: 42%;
+    box-shadow: 5px 5px 7px #F2F2F2;
+    background-color: white;
+    border-radius: 1em;
 }
 
 .activitesCardType1>img
@@ -1207,11 +1202,11 @@ body
     font-size: 1em;
 }
 
- .Filtres
- {
-        width: 75%;
-        align-items: center;
- }
+.Filtres
+{
+    width: 75%;
+    align-items: center;
+}
 .texteCarteMain
 {
     font-size: 85%;
@@ -1224,17 +1219,15 @@ body
 }
 @media screen and (min-width:1441px) and (max-width:1920px)
 { 
-
-    body
-    {
-        font-size: 1.2em;
-    }
-    
-     .Filtres
-     {
-            width: 60%;
-            align-items: center;
-     }
+body
+{
+    font-size: 1.2em;
+}
+.Filtres
+{
+    width: 60%;
+    align-items: center;
+}
 }
 @media screen  and (min-width:1921px) and (max-width:2560px)
 { 
@@ -1243,9 +1236,9 @@ body
     font-size: 1.6em;
 }
 
- .Filtres
- {
-        width: 60%;
-        align-items: center;
- }
+.Filtres
+{
+    width: 60%;
+    align-items: center;
+}
 }
